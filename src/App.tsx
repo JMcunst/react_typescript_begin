@@ -3,10 +3,13 @@ import './App.css';
 import InputFeild from './components/InputFeild';
 
 const App:React.FC = () => {
+
+  const [todo, setTodo] = useState<string>("");
+
   return (
     <div className="App">
       <span className='heading'>Jmcunst</span>
-      <InputFeild/>
+      <InputFeild todo={todo} setTodo={setTodo}/>
     </div>
   );
 }
