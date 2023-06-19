@@ -6,6 +6,8 @@ const App:React.FC = () => {
 
   const [todo, setTodo] = useState<string>("");
 
+  console.log('test:',todo);
+
   return (
     <div className="App">
       <span className='heading'>Jmcunst</span>
