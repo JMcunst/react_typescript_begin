@@ -34,6 +34,28 @@ import './App.css';
 // let printScore4: (score: number) => never;
 // let personName: unknown;
 
+// interface Person {
+//   name: string;
+//   age?: number;
+// }
+
+// type X = {
+//   a: string;
+//   b: number;
+// }
+// type Y = X & { // need remove X &
+//   c: string;
+//   d: number;
+// }
+// let y:Y = {
+//   c: 'test',
+//   d: 33
+// }
+// //
+// interface Guy extends Person{
+//   profession: string;
+// }
+
 function App() {
   return (
     <div className="App">
