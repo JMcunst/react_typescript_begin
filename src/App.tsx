@@ -55,6 +55,16 @@ import './App.css';
 // interface Guy extends Person{
 //   profession: string;
 // }
+// //
+// type W = Person & {
+//   a: string;
+//   b: number;
+// }
+// //
+// interface Person extends X {
+//   name: string;
+//   age?: number;
+// }
 
 function App() {
   return (
